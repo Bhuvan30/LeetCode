@@ -14,7 +14,7 @@ class Solution {
             }
         }
         String fans="";
-        for(int k=0;k<ans.length;k++){
+        for(int k=0 ; k<ans.length ; k++){
             fans+=ans[k];
         }
         return fans;
