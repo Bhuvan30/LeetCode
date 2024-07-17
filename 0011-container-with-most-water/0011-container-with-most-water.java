@@ -3,10 +3,10 @@ class Solution {
         int a=0,b=height.length-1,max=0;
         while(a<b){
             if(height[a]<height[b]){
-                max=Math.max(max,height[a]*(b-a));
+                max = Math.max(max,height[a]*(b-a));
                 a++;
             }else{
-                max=Math.max(max,height[b]*(b-a));
+                max = Math.max(max,height[b]*(b-a));
                 b--;
             }
         }
