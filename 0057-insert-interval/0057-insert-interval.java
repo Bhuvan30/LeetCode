@@ -16,6 +16,6 @@ class Solution {
             r.add(intervals[i]);
             i++;
         }
-        return r.toArray(new int[r.size()][2]);
+        return r.toArray(new int[r.size()][]);
     }
 }
