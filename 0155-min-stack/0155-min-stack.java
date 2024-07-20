@@ -16,7 +16,7 @@ class MinStack {
     
     public void push(int x) {
         if(head == null){
-            head=new Node(x,x,null);
+            head = new Node(x,x,null);
         }else{
             head=new Node(x,Math.min(x,head.min),head);
         }
