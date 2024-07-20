@@ -18,7 +18,7 @@ class MinStack {
         if(head == null){
             head = new Node(x,x,null);
         }else{
-            head=new Node(x,Math.min(x,head.min),head);
+            head = new Node(x,Math.min(x,head.min),head);
         }
     }
     
