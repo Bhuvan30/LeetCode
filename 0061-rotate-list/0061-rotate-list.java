@@ -21,7 +21,7 @@ class Solution {
         }
         l++;
         tail.next=head;
-        int rotationPoint=l-k%l;
+        int rotationPoint = l-k%l;
         tail=head;
         while(rotationPoint-- > 1){
             tail=tail.next;
