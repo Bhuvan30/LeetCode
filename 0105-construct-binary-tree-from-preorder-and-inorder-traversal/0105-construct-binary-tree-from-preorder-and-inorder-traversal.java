@@ -15,7 +15,7 @@
  */
 class Solution {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        Map<Integer,Integer> ioim=new HashMap<>();
+        Map<Integer,Integer> ioim = new HashMap<>();
         for(int i=0;i<inorder.length;i++){
             ioim.put(inorder[i],i);
         }
