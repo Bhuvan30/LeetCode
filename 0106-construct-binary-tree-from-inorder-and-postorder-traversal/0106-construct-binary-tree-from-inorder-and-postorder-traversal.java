@@ -18,10 +18,10 @@ class Solution {
     Map<Integer,Integer> hm=new HashMap<>();
     int index;
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        inOrder=inorder;
-        postOrder=postorder;
-        int n=inorder.length;
-        index=n-1;
+        inOrder = inorder;
+        postOrder = postorder;
+        int n = inorder.length;
+        index = n-1;
         for(int i=0;i<n;i++){
             hm.put(inorder[i],i);
         }
