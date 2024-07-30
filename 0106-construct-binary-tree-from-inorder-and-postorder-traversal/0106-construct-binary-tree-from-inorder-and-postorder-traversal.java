@@ -25,7 +25,7 @@ class Solution {
         for(int i=0;i<n;i++){
             hm.put(inorder[i],i);
         }
-        TreeNode root=dfs(0,n-1);
+        TreeNode root = dfs(0,n-1);
         return root;
     }
     private TreeNode dfs(int s,int e){
