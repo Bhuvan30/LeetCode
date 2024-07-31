@@ -32,7 +32,8 @@ class Solution {
             }else{
                 root.left.next=findRoot(root);
             }
-        }if(root.right!=null){
+        }
+        if(root.right!=null){
             root.right.next=findRoot(root);
         }
         root.right=connect(root.right);
