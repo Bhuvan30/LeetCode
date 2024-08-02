@@ -14,7 +14,7 @@
  * }
  */
 class Solution {
-    int ts=0;
+    int ts = 0;
     private void preorder(TreeNode root,int sum){
         if(root==null) return;
         sum=sum*10+root.val;
