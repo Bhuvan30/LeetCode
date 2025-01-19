@@ -29,7 +29,7 @@ BSTIterator(TreeNode root) {
     }
     
     int next() {
-        TreeNode top=order.pop();
+        TreeNode top = order.pop();
         partialInOrder(top.right);
         return top.val;
     }
