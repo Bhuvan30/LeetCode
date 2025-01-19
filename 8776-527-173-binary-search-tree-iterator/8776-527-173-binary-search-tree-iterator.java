@@ -15,7 +15,7 @@
  */
 class BSTIterator {
 
-Stack<TreeNode> order=new Stack<>();
+Stack<TreeNode> order = new Stack<>();
 
 BSTIterator(TreeNode root) {
         partialInOrder(root);
