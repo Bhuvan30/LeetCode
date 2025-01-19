@@ -24,7 +24,7 @@ BSTIterator(TreeNode root) {
     void partialInOrder(TreeNode node){
         while(node!=null){
             order.push(node);
-            node=node.left;
+            node = node.left;
         }
     }
     
