@@ -26,10 +26,10 @@ class Solution {
                 if(count==0){
                     result.add(val.val);
                 }
-                if(val.left!=null){
+                if(val.left != null){
                     q.add(val.left);
                 }
-                if(val.right!=null){
+                if(val.right != null){
                     q.add(val.right);
                 }
             }
