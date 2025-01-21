@@ -20,10 +20,10 @@ class Solution {
         Queue<TreeNode> q=new LinkedList<>();
         q.add(root);
         while(q.size()>0){
-            int count=q.size();
-            while(count-->0){
-                TreeNode val=q.remove();
-                if(count==0){
+            int count = q.size();
+            while(count-- > 0){
+                TreeNode val = q.remove();
+                if(count == 0){
                     result.add(val.val);
                 }
                 if(val.left != null){
