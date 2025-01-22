@@ -27,7 +27,7 @@ class Solution {
             while(size-->0){
                 TreeNode curr=q.poll();
                 currLevel.add(curr.val);
-                if(curr.left!=null)q.offer(curr.left);
+                if(curr.left != null)q.offer(curr.left);
                 if(curr.right!=null)q.offer(curr.right);
             }
             result.add(currLevel);
