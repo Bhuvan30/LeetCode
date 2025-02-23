@@ -27,7 +27,7 @@ class Solution {
             level++;
             List<Integer> currlevel=new ArrayList<>();
             while(size-->0){
-                TreeNode curr=q.poll();
+                TreeNode curr = q.poll();
                 currlevel.add(curr.val);
                 if(curr.left!=null){
                     q.add(curr.left);
