@@ -29,7 +29,7 @@ class Solution {
             while(size-->0){
                 TreeNode curr = q.poll();
                 currlevel.add(curr.val);
-                if(curr.left!=null){
+                if(curr.left != null){
                     q.add(curr.left);
                 }
                 if(curr.right!=null){
