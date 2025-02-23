@@ -36,7 +36,7 @@ class Solution {
                     q.add(curr.right);
                 }
             }
-            if(level%2==0){
+            if(level%2 == 0){
                 Collections.reverse(currlevel);
             }
             ans.add(currlevel);
