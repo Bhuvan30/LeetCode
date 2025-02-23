@@ -40,7 +40,7 @@ class Solution {
                 Collections.reverse(currlevel);
             }
             ans.add(currlevel);
-        }
+        }  
         return ans;
     }
 }
